@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.d-block {
+  filter: brightness(50%);
+}
+
+header .check {
+  overflow: visible;
+  z-index: 10;
+  position: absolute;
+  height: 40vh;
+  width: 35%;
+  background: #ffffff;
+  left: 33%;
+  top: 28%;
+  border-radius: 40px;
+  box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.4);
+}
+
+header .check .logo {
+  margin-left: 35px;
+  margin-top: -25px;
+}
+
+header .check .logo i {
+  font-size: 9rem;
+  color: #e6b325;
+}
+
+.check .text {
+  margin-left: 200px;
+  margin-top: -100px;
+  width: 50%;
+}
+
+.check .text p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.check .confirm {
+  margin-left: 75px;
+  margin-top: 30px;
+}
+
+.check .confirm button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.check .confirm button {
+  border: none;
+  background: #e6b325;
+  width: 20rem;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.check .confirm button:hover {
+  background: #daa821;
+}
+
+/*-------------------- Loader ----------------*/
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.loader-container img {
+  width: 35rem;
+}
+
+.loader-container.fade-out {
+  top: -110%;
+  opacity: 0;
+}

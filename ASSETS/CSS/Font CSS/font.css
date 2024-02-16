@@ -1,0 +1,54 @@
+@font-face {
+    font-family: hint;
+    src: url(AssetsFont/hin.otf);
+}
+
+@font-face {
+    font-family: akukamu;
+    src: url(AssetsFont/Aku&Kamu.otf);
+}
+
+@font-face {
+    font-family: flint;
+    src: url(AssetsFont/RTCO\ Flinton\ Four.otf);
+}
+
+@font-face {
+    font-family: kg;
+    src: url(AssetsFont/KGHAPPY.ttf);
+}
+
+@font-face {
+    font-family: kg-solid;
+    src: url(AssetsFont/KGHAPPYSolid.ttf);
+}
+
+@font-face {
+    font-family: clar;
+    src: url(AssetsFont/CLARENDO.ttf);
+}
+
+@font-face {
+    font-family: rh;
+    src: url(AssetsFont/KGRedHands.ttf);
+}
+
+@font-face {
+    font-family: rho;
+    src: url(AssetsFont/KGRedHandsOutline.ttf);
+}
+
+@font-face {
+    font-family: lemon-mi;
+    src: url(AssetsFont/LEMONMILK-MediumItalic.otf);
+}
+
+@font-face {
+    font-family: lemon-med;
+    src: url(AssetsFont/LEMONMILK-Medium.otf);
+}
+
+@font-face {
+    font-family: lemon-light;
+    src: url(AssetsFont/LEMONMILK-Light.otf);
+}

@@ -1,0 +1,558 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: #e6b325;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+header img {
+  filter: brightness(40%);
+}
+
+header .title {
+  position: absolute;
+  top: 36%;
+  left: 22%;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+header .title h2 {
+  font-size: 5rem;
+  margin-top: 15px;
+  font-family: kg-solid;
+}
+
+header .title h2:nth-child(2) {
+  color: #e6b325;
+}
+/*----------------------------- Navbar 1 -------------------------------*/
+.nav1 {
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 75px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.nav1 .icon {
+  margin-top: 15px;
+  margin-left: -150px;
+}
+
+.nav1 .icon a {
+  display: inline-block;
+  text-decoration: none;
+  color: #f1f1f1;
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: 35px;
+  border: 1px solid #f1f1f1;
+  transition: 0.5s;
+}
+
+.nav1 .icon a:hover {
+  background: #f1f1f1;
+  color: #e6b325;
+}
+
+.nav1 .btnhead {
+  margin-top: 15px;
+  margin-right: -100px;
+  border: 2px solid #f1f1f1;
+  background: transparent;
+  height: 50px;
+  width: 150px;
+  border-radius: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav1 span {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: scaleX(0);
+  top: 0;
+  left: 0;
+  background: #e6b325;
+  z-index: -1;
+  transition: transform 1s;
+  transform-origin: right;
+}
+
+.nav1 .btnhead:hover span {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.nav1 .btnhead a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+/*------------------ End Navbar 1 ---------------------------*/
+/* */
+/*--------------------- Navbar 2 ----------------------------*/
+.nav2 {
+  display: flex;
+  z-index: 10;
+  position: fixed;
+  top: -200px;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 13vh;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  transition: 1.4s;
+}
+
+.navfix {
+  top: 0;
+}
+
+.nav2 .logo {
+  color: #e6b325;
+  font-family: hint;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.nav2 .navi {
+  text-align: center;
+  margin-top: 18px;
+  margin-left: 80px;
+}
+
+.nav2 .navi a {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  margin-right: 15px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.nav2 .navi a:hover {
+  color: #e6b325;
+}
+
+.nav2 .navi .active {
+  color: #e6b325;
+}
+
+.nav2 .navi .active::after {
+  background-color: #e6b325;
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  left: 0;
+  bottom: -30px;
+  transition: 0.4s;
+}
+
+.nav2 .navi a::after {
+  background-color: #e6b325;
+  content: "";
+  position: absolute;
+  height: 0px;
+  width: 100%;
+  left: 0;
+  bottom: -30px;
+  transition: 0.4s;
+}
+
+.nav2 .navi a:hover::after {
+  height: 4px;
+}
+
+.nav2 .icon {
+  margin-top: 17px;
+}
+
+.nav2 .icon a {
+  margin-right: 15px;
+  background: #f0f1f3;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+}
+
+.nav2 .icon i {
+  color: #192a56;
+  transition: 0.4s;
+}
+
+.nav2 .icon a:hover i {
+  color: #e6b325;
+}
+/*---------------------------- End Navbar2 -----------------------------------------*/
+/*--------------------------------- Centered heroes ------------------------------*/
+.par-edit {
+  font-family: "Poppins", sans-serif;
+}
+
+/*---------------------------------- Room ----------------------------*/
+
+.room-section {
+  height: 130vh;
+  width: 100%;
+  display: flex;
+}
+
+.room-section .room-img {
+  width: 45%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.room-section .room-img img {
+  transition: 0.7s;
+}
+
+.room-section .room-img:hover img {
+  transform: scale(1.1);
+}
+
+.room-section .par {
+  margin-top: 130px;
+  width: 50%;
+  height: 100%;
+}
+
+.room-section .par .title {
+  margin-top: 40px;
+  margin-left: 55px;
+}
+
+.room-section .par .text {
+  width: 80%;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+.room-section .par .list-room {
+  width: 70%;
+  margin-left: 50px;
+}
+
+.room-section .par .list-room ul li {
+  position: relative;
+  list-style: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+  padding: 3px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.room-section .par .list-room ul li .fa-solid{
+  position: absolute;
+  right: 30px;
+  line-height: 25px;
+  transition: .7s;
+}
+
+.room-section .par .list-room ul li .faf{
+  line-height: 28px;
+}
+
+.room-section .par .list-room ul li:hover .fa-solid{
+  right: 10px;
+}
+
+.room-section .par .list-room ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+.edit-h2 {
+  font-family: kg;
+}
+/*-------------------- Banner --------------------*/
+.banner {
+  margin-top: 10%;
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+
+.banner .overlay {
+  position: absolute;
+  height: 25%;
+  left: 60px;
+  bottom: -20px;
+  width: 35%;
+  background: rgba(230, 179, 37, 0.7);
+}
+
+.content {
+  width: 80%;
+  color: #f1f1f1;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.content p {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+/*-------------------------- Pricing --------------------------*/
+.pricing {
+  height: 160vh;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.pricing .title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pricing .box-pricing {
+  margin-top: 50px;
+  float: left;
+  height: 400px;
+  border-radius: 10px;
+  width: 330px;
+  border: 2px solid #e6b325;
+}
+
+.pricing .top {
+  margin-left: 100px;
+}
+
+.pricing .bottom1 {
+  margin-left: 300px;
+}
+
+.pricing .bottom2 {
+  margin-left: 100px;
+}
+
+.pricing .box-pricing .head {
+  text-align: center;
+  height: 80px;
+  background: #e6b325;
+}
+
+.pricing .box-pricing .head h4 {
+  color: #ffffff;
+  line-height: 70px;
+}
+
+.pricing .box-pricing .price {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 70px;
+  width: 55%;
+}
+
+.pricing .box-pricing .spec ul {
+  width: 100%;
+}
+
+.pricing .box-pricing .spec ul li {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  width: 111.5%;
+  margin-left: -33px;
+}
+
+.pricing .box-pricing .spec {
+  margin-top: 20px;
+
+  height: 100px;
+  text-align: center;
+}
+
+.pricing .box-pricing .btn-order {
+  height: 110px;
+  width: 100%;
+}
+
+.pricing .box-pricing .btn-order button {
+  height: 50px;
+  width: 75%;
+  margin-left: 43px;
+  margin-top: 35px;
+  background: #e6b325;
+  border-radius: 10px;
+  transition: 0.2s;
+  border: none;
+}
+
+.pricing .box-pricing .btn-order button:hover {
+  background: #ff9102;
+}
+
+.pricing .box-pricing .btn-order a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+/*------------------------ Footer -----------------------------*/
+footer {
+  margin-top: 100px;
+  height: 400px;
+  border-top: 1px solid #cccccc;
+  background: #ffffff;
+}
+
+footer .list-nav {
+  width: 10%;
+  height: 190px;
+  margin-left: 150px;
+  margin-top: 60px;
+  position: relative;
+}
+
+footer .list-nav h4 {
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+}
+
+footer .list-nav ul {
+  position: absolute;
+  right: 20px;
+}
+
+footer .list-nav ul li {
+  list-style: none;
+  margin-top: 8px;
+}
+
+footer .list-nav ul li a {
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+  font-weight: 800;
+  display: inline-block;
+  margin-right: 40px;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+footer .list-nav ul li a::after {
+  content: "";
+  background: #e6b325;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.75s;
+}
+
+footer .list-nav ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+/*---------------------- IMG Foooter -----------------------*/
+
+footer .img-footer {
+  height: 50%;
+  width: 29.5%;
+  margin-left: 800px;
+  margin-top: -180px;
+  border-radius: 15px;
+  border: 1px solid #cccccc;
+  overflow: hidden;
+}
+
+footer .img-footer img {
+  transition: 0.5s;
+}
+
+footer .img-footer:hover img {
+  transform: scale(1.1);
+}
+
+/*-------------------- lefts ---------------*/
+
+footer .lefts {
+  margin-left: 450px !important;
+  margin-top: -190px !important;
+}
+/*---------------------- Bottom Section ---------------------------*/
+
+footer .bottom-sec {
+  height: 30%;
+  width: 85%;
+  border-top: 1px solid #cccccc;
+  margin-left: 110px;
+  margin-top: 30px;
+}
+
+/*------------------------- Bottom Copyrigjt ----------------------------------*/
+footer .bottom-sec .copyright {
+  margin-top: 20px;
+}
+
+footer .bottom-sec .copyright span {
+  color: #e6b325;
+  font-family: hint;
+}
+
+/*---------------------------- Bottom Sosmed -----------------------------*/
+
+footer .bottom-sec .social {
+  margin-left: 900px;
+  margin-top: -30px;
+}
+
+footer .bottom-sec .social a {
+  text-align: center;
+  line-height: 40px;
+  margin-right: 20px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #cccccc;
+  transition: 0.5s;
+}
+
+footer .bottom-sec .social a i {
+  color: #000;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+footer .bottom-sec .social a:hover {
+  background: #e6b325;
+}
+
+footer .bottom-sec .social a:hover i {
+  color: #ffffff;
+}

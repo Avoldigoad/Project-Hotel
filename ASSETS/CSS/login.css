@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: #e6b325;
+}
+
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(IMG/alexander-kaunas-xEaAoizNFV8-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.login-form {
+  position: relative;
+  height: 70%;
+  width: 30%;
+  background: #f1f1f1;
+  border-radius: 8px;
+  transform: translate(115%, 20%);
+  box-shadow: 10px 10px 13px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgb(110, 110, 110);
+}
+
+.login-form span {
+  position: absolute;
+  background: #e6b325;
+  height: 50px;
+  width: 8px;
+  top: 43px;
+}
+
+.login-form h2 {
+  margin-left: 140px;
+  margin-top: 50px;
+  color: #e6b325;
+}
+
+.login-form form {
+  font-family: sans-serif;
+  margin-top: 60px;
+  display: block;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.login-form input {
+  width: 125%;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  background: #f1f1f1;
+}
+
+.login-form .isi {
+  margin-bottom: 0px;
+}
+
+.login-form .btn-login {
+  margin-top: 40px;
+  margin-left: 115px;
+}
+
+.login-form .btn-login button {
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1.5px solid #e6b325;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+}
+
+.login-form .btn-login button:hover {
+  background: #e6b325;
+}
+
+.login-form .btn-login button:hover a {
+  color: #f1f1f1;
+}
+
+.login-form label {
+  position: relative;
+  top: 22px;
+  transition: 0.5s;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-form .top {
+  top: 0;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-form .change{
+  color: #e6b325;
+}
+
+.login-form .btn-login a {
+  text-decoration: none;
+  color: #e6b325;
+  z-index: 1;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s;
+  transition-delay: 0.1s;
+}
+
+.login-form .logo-circle {
+  height: 150px;
+  width: 150px;
+  background: #e6b325;
+  position: absolute;
+  border-radius: 50%;
+  left: 320px;
+  top: 25px;
+  text-align: center;
+}
+
+.login-form .logo-circle i {
+  color: #f1f1f1;
+  margin-top: 48px;
+  font-size: 3rem;
+}
+
+.login-form .text {
+  position: absolute;
+  bottom: 0px;
+  left: 95px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-form .text a {
+  color: #e6b325;
+}
+
+.decoration {
+  position: absolute;
+}
+
+
+
+.decoration #deco{
+  display: block;
+  height: 0px;
+  width: 6px;
+  position: absolute;
+  background: #e6b325;
+  top: 150px;
+  transition: .75s; 
+}
+
+.decoration .animate{
+  height: 50px;
+}
+
+.decoration #deco1{
+  display: block;
+  height: 0px;
+  width: 6px;
+  position: absolute;
+  background: #e6b325;
+  top: 220px;
+  transition: .75s; 
+}
+
+.checkb{
+  margin-top: 15px;
+  position: relative;
+  height: 20px;
+  display: inline-block;
+}
+
+.checkb input:checked{
+  background-color: #e6b325;
+}
+
+.checkb .check{
+  display: inline-block;
+  position: absolute;
+  left: -10px;
+}
+
+.checkb label{
+  position: relative;
+  left: 85px;
+  top: -5px;
+}
+

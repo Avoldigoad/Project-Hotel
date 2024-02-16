@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: #e6b325;
+}
+
+header {
+  height: 150vh;
+  width: 100%;
+  position: relative;
+}
+
+.booking {
+  height: 100vh;
+  width: 40%;
+  position: absolute;
+  border: 2px solid rgba(56, 55, 55, 0.5);
+  left: 30%;
+  bottom: 20%;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 15px 25px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.logo h2 {
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.title {
+  position: relative;
+}
+
+.title h2 {
+  position: relative;
+}
+
+.title span {
+  display: inline-block;
+  background: #e6b325b4;
+  height: 30px;
+  width: 130px;
+  position: absolute;
+  border-radius: 5px;
+  bottom: -10px;
+  right: 204px;
+}
+
+.order {
+  text-align: left;
+  height: 50vh;
+  width: 40%;
+  margin-top: 50px;
+  margin-left: 155px;
+  font-family: "Poppins", sans-serif;
+}
+
+.order .border {
+  border-radius: 5px;
+  border: 2px solid #e6b325b4;
+}
+
+.order input {
+  outline: none;
+  margin-bottom: 10px;
+  transition: 0.4s;
+}
+
+.order select {
+  outline: none;
+  transition: 0.4s;
+}
+
+.order button {
+  border: 1.5px solid #e6b325;
+  background: #e6b325;
+  color: #ffffff;
+  height: 45px;
+  width: 160px;
+  margin-top: 30px;
+  margin-left: 25px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s;
+}
+

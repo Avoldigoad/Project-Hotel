@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="ASSETS/IMG/logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="CSS/IMG/LOGOOO.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Noto+Sans:wght@300&family=Open+Sans&family=Oxygen:wght@300&family=Poppins&family=Roboto:wght@300&family=Source+Sans+Pro:wght@200&family=Zilla+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="CSS/Font CSS/font.css" />
+    <link rel="stylesheet" href="CSS/stand-room.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel A | Room</title>
+  </head>
+  <body>
+    <!--------------------- Navbar --------------------------------->
+    <nav class="animate__animated animate__fadeIn">
+      <a class="logo" href="">Hotel A</a>
+
+      <ul class="navi">
+        <a href="index1.html">Home</a>
+        <a href="Fasilitas.html">Facility</a>
+        <a href="gallery.html">Gallery</a>
+        <a class="active" href="kamar.html">Room</a>
+      </ul>
+
+      <ul class="icon">
+        <a href="contact.html"><i class="fa-solid fa-envelope"></i></a>
+
+        <a href="login.html"><i class="fa-solid fa-user"></i></a>
+        <a href="lokasi.html"><i class="fa-solid fa-location-dot"></i></a>
+      </ul>
+    </nav>
+    <!--------------------------- End Navbar ------------------------------->
+    <!-------------------------- Box Room ---------------------------------->
+    <div
+      class="animate__animated animate__fadeInDown animate__delay-0,5s box-room"
+    >
+      <div class="box-img">
+        <!-- Usahakan Isi src gambarnya yg landscape (yg miring maksudnya, bukan yg tegak kek hp) -->
+        <img
+          style="border-radius: 15px"
+          class="animate__animated animate__fadeIn animate__delay-1s"
+          src="CSS/IMG/standar.jpg"
+          height="100%"
+          width="100%"
+          alt="isi gambar ku kamar nu biasa aja !!  landscape  !!"
+        />
+      </div>
+
+      <div class="text">
+        <div class="title">
+          <h2>
+            Standard <span class="black" style="color: #e6b325">Room.</span>
+          </h2>
+        </div>
+        <div class="par">
+          <!-- <-- Div "par" ieu isi deskripsi jang kamarna sok ketik nu berhubungan jeung kamar nu standard, bae ti gugel -->
+          <p>
+            Kamar ini merupakan kamar yang paling murah diantara yang lain.
+            Kamar ini sangat cocok untuk anda yg ingin menetapa sendirian
+          </p>
+        </div>
+      </div>
+
+      <div class="btn-room">
+        <button class="ava" id="ava">
+          Check Availability <span class="tersedia"> : 13</span>
+        </button>
+
+        <button>
+          <a href="booking.html">Booking Now</a>
+        </button>
+      </div>
+    </div>
+    <!-------------------------- End Box Room ---------------------->
+
+    <!---------------------------- Footer ----------------------->
+
+    <footer data-aos="fade-down">
+      <!---------------------- List Nav --------------------->
+      <div data-aos="zoom-in-up" class="list-nav">
+        <h4>Navig<span style="color: #e6b325">ation.</span></h4>
+        <ul>
+          <li><a href="index1.html">Home</a></li>
+          <li><a href="kamar.html">Room</a></li>
+          <li><a href="Fasilitas.html">Facility</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <!----------------------- List Section ------------------------------------->
+      <div data-aos="zoom-in-up" class="list-nav lefts">
+        <h4>Sec<span style="color: #e6b325">tion.</span></h4>
+        <ul>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="lokasi.html">Location</a></li>
+          <li><a href="faq.html">FaQ</a></li>
+        </ul>
+      </div>
+      <!--------------------- IMG Footer ----------------------------->
+      <div class="img-footer">
+        <img
+          style="border-radius: 15px"
+          src="CSS/IMG/footer.jpeg"
+          width="396px"
+          alt=""
+        />
+      </div>
+      <!------------------------------ Bagian Bawah ----------------------------->
+      <div class="bottom-sec">
+        <!----------------------- Copyright -------------------------->
+        <div class="copyright">
+          &copy; 2022. <b><span class="logof">Hotel A.</span></b> All Right
+          Reserved
+        </div>
+        <!-------------------- Sosmed -------------------------------->
+        <div class="social">
+          <ul>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- script js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Standar-Room-JS/stand-room.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+  </body>
+</html>
